@@ -65,7 +65,7 @@ const Projects = () => {
         { name: "Govt School for the Blind", location: "Burla, Sambalpur", image: sambalpurImg },
         { name: "School for the Blind", location: "Bandhapali, Sundargarh", image: sundargarhImg },
         { name: "Manoj Manjari School for the Blind", location: "Sidhamatha, Keonjhar", image: keonjharImg },
-        { name: "Special School for the Blind", location: "Laxmiposi, Mayurbhanja", image: mayurbhanjaImg },
+        { name: "Special School for the Blind", location: "Laxmiposi, Mayurbhanj", image: mayurbhanjaImg },
         { name: "Redcross School for the Blind", location: "Paramanandapur, Bhawanipatna", image: bhawanipatnaImg },
         { name: "School for the Blind", location: "Ranipatna, Balasore", image: balasoreImg },
         { name: "Vijaya School for the Blind", location: "Langudi, Bhadrak", image: bhadrakImg }
