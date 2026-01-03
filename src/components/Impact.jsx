@@ -55,7 +55,7 @@ const Impact = () => {
                     {[
                         {
                             count: "12",
-                            label: "Number of Schools",
+                            label: "Schools",
                             description: "Partnering with schools to make learning more accessible and inclusive for visually impaired students.",
                             delay: 0
                         },
@@ -67,7 +67,7 @@ const Impact = () => {
                         },
                         {
                             count: "271",
-                            label: "Number of Students",
+                            label: "Students",
                             description: "Students actively learning, exploring, and growing through accessible digital education.",
                             delay: 0.4
                         },

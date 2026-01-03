@@ -57,7 +57,7 @@ const ProjectContent = ({ title, description, schools }) => (
 
 const Projects = () => {
     const schoolsList = [
-        { name: "Louis Braille School for the Blind", location: "Bharatupur, Bhubaneswar", image: bhubaneswarImg },
+        { name: "Louis Braille School for the Blind", location: "Bharatpur, Bhubaneswar", image: bhubaneswarImg },
         { name: "School for the Blind ", location: "CDA-10, Cuttack", image: cuttackImg },
         { name: "NSS Special School for the Blind", location: "Banapur, Khordha", image: khordhaImg },
         { name: "Redcross School for the Blind", location: "Ambapua, Berhampur", image: berhampurImg },
