@@ -37,6 +37,11 @@ const ProjectContent = ({ title, description, schools }) => (
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
                         <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-300"></div>
+
+                        {/* Number Badge */}
+                        <div className="absolute top-3 left-3 w-8 h-8 flex items-center justify-center bg-white/90 backdrop-blur-sm rounded-full shadow-sm text-primary text-xs font-bold transition-all duration-300 group-hover:scale-110 z-10">
+                            {(idx + 1).toString().padStart(2, '0')}
+                        </div>
                     </div>
                     <div className="p-5 flex-grow flex flex-col justify-center">
                         <div className="">
@@ -52,9 +57,9 @@ const ProjectContent = ({ title, description, schools }) => (
 
 const Projects = () => {
     const schoolsList = [
-        { name: "Louis Braille School for the Blind", location: "Bhubaneswar", image: bhubaneswarImg },
-        { name: "School for the Blind CDA-10", location: "Cuttack", image: cuttackImg },
-        { name: "Nss Special School for the Blind", location: "Banapur, Khordha", image: khordhaImg },
+        { name: "Louis Braille School for the Blind", location: "Bharatupur, Bhubaneswar", image: bhubaneswarImg },
+        { name: "School for the Blind ", location: "CDA-10, Cuttack", image: cuttackImg },
+        { name: "NSS Special School for the Blind", location: "Banapur, Khordha", image: khordhaImg },
         { name: "Redcross School for the Blind", location: "Ambapua, Berhampur", image: berhampurImg },
         { name: "Radhakanta Dristihina Vidyalaya", location: "Lathikat, Rourkela", image: rourkelaImg },
         { name: "Govt School for the Blind", location: "Burla, Sambalpur", image: sambalpurImg },
@@ -68,7 +73,7 @@ const Projects = () => {
 
     const projectData = {
         title: "Blind School Project – Transforming Education for Visually Impaired Students in Odisha",
-        description: "In 2022, the Behera Family Charity Foundation partnered with Prerosna Odisha and Aveti Learning to revolutionize education for visually impaired students in Odisha. Through tablet-based learning solutions, we’re providing cutting-edge assistive technology that enables blind children to access quality education and develop essential skills for their future.",
+        description: "In 2022, the Behera Family Charity Foundation partnered with Promise a Future and Aveti Learning to revolutionize education for visually impaired students in Odisha. Through tablet-based learning solutions, we’re providing cutting-edge assistive technology that enables blind children to access quality education and develop essential skills for their future.",
         schools: schoolsList
     };
 

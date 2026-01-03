@@ -27,7 +27,7 @@ const FocusAreas = () => {
     const areas = [
         {
             icon: FaBlind,
-            title: "Education for Blind Children",
+            title: "Education for Visually Impaired",
             description: "Supporting educational opportunities for visually impaired students through innovative learning tools and resources."
         },
         {
@@ -37,7 +37,7 @@ const FocusAreas = () => {
         },
         {
             icon: FaChalkboardTeacher,
-            title: "Skilling of Blind Children",
+            title: "Skilling of Visually Challenged",
             description: "Providing skill development programs for visually challenged youth to build independence and career opportunities."
         }
     ];

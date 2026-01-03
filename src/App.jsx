@@ -6,13 +6,17 @@ import FocusAreas from './components/FocusAreas';
 import Projects from './components/Projects';
 import Quote from './components/Quote';
 import Impact from './components/Impact';
-import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
   // Force scroll to top on refresh with cross-browser support (Firefox/Safari/Chrome)
   useLayoutEffect(() => {
+    // 0. Clear any hash from the URL to prevent browser jump to anchor
+    if (window.location.hash) {
+      window.history.replaceState(null, '', window.location.pathname);
+    }
+
     // 1. Immediate scroll reset
     const scrollToTop = () => {
       window.scrollTo(0, 0);
@@ -70,7 +74,6 @@ function App() {
         <div className="h-6 bg-light"></div> {/* Spacer */}
         <Quote />
         <Impact />
-        <Gallery />
         <Contact />
       </main>
       <Footer />

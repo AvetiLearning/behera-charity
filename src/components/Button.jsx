@@ -11,6 +11,19 @@ const Button = ({ children, variant = 'primary', className = '', ...props }) => 
         ghost: "text-primary hover:bg-gray-100",
     };
 
+    if (props.href) {
+        return (
+            <motion.a
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className={`${baseStyle} ${variants[variant]} ${className}`}
+                {...props}
+            >
+                {children}
+            </motion.a>
+        );
+    }
+
     return (
         <motion.button
             whileHover={{ scale: 1.05 }}

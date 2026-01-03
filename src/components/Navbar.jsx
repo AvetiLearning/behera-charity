@@ -21,8 +21,8 @@ const Navbar = () => {
         { name: 'About', href: '#about' },
         { name: 'Focus Areas', href: '#focus-areas' },
         { name: 'Projects', href: '#projects' },
-        { name: 'Gallery', href: '#gallery' },
-        { name: 'Contact', href: '#contact' },
+        { name: 'Our Impact', href: '#impact' },
+        { name: 'Contact Us', href: '#contact' },
     ];
 
     return (
@@ -51,9 +51,6 @@ const Navbar = () => {
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
                         </a>
                     ))}
-                    <Button variant="primary" className="text-xs lg:text-sm px-3 py-1.5 lg:px-5 lg:py-2 whitespace-nowrap">
-                        Donate Now
-                    </Button>
                 </nav>
 
                 {/* Mobile Menu Toggle */}
@@ -85,9 +82,6 @@ const Navbar = () => {
                                     {link.name}
                                 </a>
                             ))}
-                            <Button variant="primary" className="w-full justify-center">
-                                Donate Now
-                            </Button>
                         </div>
                     </motion.nav>
                 )}
