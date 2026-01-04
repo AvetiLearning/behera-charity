@@ -18,7 +18,7 @@ const Hero = () => {
                         Behera Family Charity Foundation
                     </h1>
                     <p className="text-base lg:text-lg text-text/80 max-w-lg leading-relaxed">
-                        Empowering Lives Throught Education and Inclusion.
+                        Empowering Lives Through Education and Inclusion.
                     </p>
 
                     <div className="pl-6 border-l-4 border-accent italic text-gray-600 text-sm lg:text-base">
