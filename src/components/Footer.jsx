@@ -17,7 +17,7 @@ const Footer = () => {
 
                 <div className="text-xs text-text/40 flex items-center justify-center gap-1">
 
-                    <span>&copy; 2025 Behera Family Charity Foundation. All rights reserved. Built with</span>
+                    <span>&copy; 2026 Behera Family Charity Foundation. All rights reserved. Built with</span>
                     <FaHeart className="text-accent" />
                     <span>in Odisha by <a href="https://avetilearning.com/#/aboutus/labs" target="_blank" rel="noopener noreferrer">Aveti Learning</a>.</span>
                 </div>
